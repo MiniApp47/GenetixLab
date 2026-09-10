@@ -118,8 +118,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "CALIPPO x FORBIDDEN FRUIT 🍇🍒",
               farm: "The Gaz SÉLECTION 🇲🇦",
               type: "🔮 Plasma Static 🔮",
-              image: "Product24.png",
-              video: "Video24.mp4",
+              image: "Product24.jpg",
+              video: "Video24.mov",
               description:
                 "🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\nL'or pur de notre sélection. Un profil terpénique intense avec des notes d'agrumes sucrées et une puissance de frappe colossale.\n\n⚠️ Réservé aux amateurs avertis.",
               tarifs: [
@@ -137,8 +137,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "120u BUDDHA LEMON 🍋",
               farm: "The Gaz SÉLECTION 🇲🇦",
               type: "120u 🏅",
-              image: "ProductBU.png",
-              video: "VideoBU.mp4",
+              image: "Product12.jpg",
+              video: "Video12.mov",
               description:
                 "🏅 DRY-SIFT 120u PREMIUM 🏅\n\nTexture sableuse et profil ultra-citronné. Une fraîcheur de Buddha Lemon qui réveille les papilles.",
               tarifs: [
@@ -154,8 +154,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "120u PURPLE PUNCH 🥊",
               farm: "The Gaz SÉLECTION 🇲🇦",
               type: "120u 🏅",
-              image: "ProductPP.png",
-              video: "VideoPP.mp4",
+              image: "Product12.jpg",
+              video: "Video12.mov",
               description:
                 "🏅 DRY-SIFT 120u PREMIUM 🏅\n\nUne frappe lourde aux notes de raisin sucré et de baies. Un effet corporel profond.",
               tarifs: [
@@ -188,8 +188,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "90u APPLE BANANA 🍎🍌",
               farm: "The Gaz SÉLECTION 🇲🇦",
               type: "90u 🍓",
-              image: "ProductApp.png",
-              video: "VideoApp.mp4",
+              image: "Product9.jpg",
+              video: "Video9.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nUn profil terpénique explosif : pomme acidulée et banane crémeuse avec une texture mousseuse incroyable.",
               tarifs: [
@@ -206,8 +206,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "90u GUSHER MINTZ 🍬",
               farm: "The Gaz SÉLECTION 🇲🇦",
               type: "90u 🍓",
-              image: "ProductGuu.png",
-              video: "VideoGuu.mp4",
+              image: "Product9.jpg",
+              video: "Video9.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nNotes sucrées de bonbon Gusher avec une touche de menthe rafraîchissante en fin de bouche.",
               tarifs: [
@@ -224,8 +224,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "90u APRICOT 🍑",
               farm: "The Gaz SÉLECTION 🇲🇦",
               type: "90u 🍓",
-              image: "ProductAp.png",
-              video: "VideoAp.mp4",
+              image: "Product9.jpg",
+              video: "Video9.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nUn goût profond d'abricot mûr avec une extraction propre et extrêmement grasse.",
               tarifs: [
@@ -242,8 +242,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "90u SourDiesel ⛽️",
               farm: "The Gaz SÉLECTION 🇲🇦",
               type: "90u 🍓",
-              image: "ProductSour.png",
-              video: "VideoSour.mp4",
+              image: "Product9.jpg",
+              video: "Video9.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nLa légende du gaz débarque ! ⛽️\n\nTexture sableuse parfaite et odeur de carburant ultra-prononcée. 🧪💨",
               tarifs: [
@@ -301,8 +301,8 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "The Gaz SÉLECTION 🇲🇦",
               promoEligible: true,
               type: "💎 Fresh Frozen 💎",
-              image: "ProductFF.png",
-              video: "VideoFF.mov",
+              image: "ProductFroz.jpg",
+              video: "VideoFroz.mov",
               description:
                 "💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n\nCocktail ultime de fruits rouges et de baies sauvages. \n\n NEW DROP 2026/27 ✨✨",
               tarifs: [
@@ -325,8 +325,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "GAZOLINA ⛽️",
               farm: "FULLMELTFARM 🍶",
               type: "90u 🍓",
-              image: "Product90.jpg",
-              video: "Video90.mov",
+              image: "ProductF9.jpg",
+              video: "VideoF9.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nUn concentré de gaz pur. Une extraction ultra-grasse qui libère des arômes de carburant intense dès l'ouverture.",
               tarifs: [
@@ -343,8 +343,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "FRUITY 🍉",
               farm: "FULLMELTFARM 🍶",
               type: "90u 🍓",
-              image: "Product90.jpg",
-              video: "Video90.mov",
+              image: "ProductF9.jpg",
+              video: "VideoF9.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne explosion de fruits rouges et de pastèque juteuse. Texture crémeuse et profil terpénique extrêmement gourmand.",
               tarifs: [
@@ -361,8 +361,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "PAPAYA 🥭",
               farm: "FULLMELTFARM 🍶",
               type: "90u 🍓",
-              image: "Product90.jpg",
-              video: "Video90.mov",
+              image: "ProductF9.jpg",
+              video: "VideoF9.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nLe roi du tropical ! Une odeur puissante de mangue et papaye mûre. Texture collante parfaite pour vos sessions.",
               tarifs: [
@@ -379,8 +379,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "90u PREMIUM ✨",
               farm: "🧈 Golden Plants",
               type: "90u 🍓",
-              image: "ProductGP.jpg",
-              video: "VideoGP.mp4",
+              image: "ProductF9.jpg",
+              video: "VideoF9.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\STRAIN DISPONIBLE : \n\n - YellowRuntz 🍋 \n - Onionz 🧅 \n - BerryCake 🫐",
               tarifs: [
@@ -902,8 +902,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "BANANA PUNCH 🍌🔥",
               farm: "OperaTerps 🇲🇦",
               type: "90u 🍓",
-              image: "ProductOP.jpg",
-              video: "VideoOP.mov",
+              image: "ProductB.jpg",
+              video: "VideoB.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nL'alliance parfaite entre la rondeur d'une banane bien mûre et un fond épicé percutant. Texture onctueuse et montée cérébrale immédiate.",
               tarifs: [
@@ -920,8 +920,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "CÉRÉALE MILK 🌾🥛",
               farm: "OperaTerps 🇲🇦",
               type: "90u 🍓",
-              image: "ProductOP.jpg",
-              video: "VideoOP.mov",
+              image: "ProductCM.jpg",
+              video: "VideoCM.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nUn profil terpénique ultra-gourmand rappelant un bol de céréales fruitées baignant dans du lait vanillé. Résine très grasse et effet profondément apaisant.",
               tarifs: [
@@ -938,8 +938,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "CHERRY PIE 🍒",
               farm: "OperaTerps 🇲🇦",
               type: "90u 🍓",
-              image: "ProductOP.jpg",
-              video: "VideoOP.mov",
+              image: "ProductCP.jpg",
+              video: "VideoCP.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nDes arômes envoûtants de tarte aux cerises tout juste sortie du four. L'équilibre idéal entre la douceur fruitée et une légère note acidulée.",
               tarifs: [
@@ -956,8 +956,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "STRAWBERRY CAKE 🍓🍰",
               farm: "OperaTerps 🇲🇦",
               type: "90u 🍓",
-              image: "ProductOP.jpg",
-              video: "VideoOP.mov",
+              image: "ProductSC.jpg",
+              video: "VideoSC.mov",
               description:
                 "🍓 SÉLECTION 90u PREMIUM 🍓\n\nUne véritable pâtisserie en bouche. Des notes intenses de fraises fraîches enrobées d'une crème sucrée. Un délice absolu pour les chasseurs de terps.",
               tarifs: [
