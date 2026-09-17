@@ -1013,13 +1013,48 @@ document.addEventListener("DOMContentLoaded", function () {
         },
       ],
     },
-   /*  {
+    {
       id: "WEED",
       name: " 🕯 Weed 🕯",
       type: "Weed",
       image: "CategWeed.png",
       products: [
         {
+          id: "Gorilla glue",
+          name: "Gorilla glue 👽",
+          farm: "CALI NO BRAND ™️©️",
+          type: "Weed",
+          image: "ProductGR.png",
+          video: "VideoGR.mov",
+          description:
+            "",
+          tarifs: [
+            { weight: "10g", price: 70.0 },
+            { weight: "25g", price: 150.0},
+            { weight: "50g", price: 270.0},
+            { weight: "100g", price: 500.0 },
+            { weight: "200g", price: 950.0 },
+          ],
+        },
+        {
+          id: "LemonC herry Gelato 🌅",
+          name: "LemonCherryGelato🍋🍒",
+          farm: "CALI NO BRAND ™️©️",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductLC.jpg",
+          video: "VideoLC.mov",
+          description:
+            "🇨🇦 CALI CANADA IMPORT 🇨🇦\n\nUn classique moderne incontournable. Des buds ultra-denses, givrées de trichomes et parfaitement manucurées.\n\n🍋🍒 Saveur : Le mariage parfait entre l'acidité du citron, la douceur de la cerise et la rondeur crémeuse de la famille Gelato.\n🧠 Effet : Profonde relaxation corporelle avec un high cérébral euphorique.",
+          tarifs: [
+            { weight: "10g", price: 70.0 },
+            { weight: "25g", price: 150.0},
+            { weight: "50g", price: 270.0},
+            { weight: "100g", price: 500.0 },
+            { weight: "200g", price: 950.0 },
+          ],
+        },
+        /* {
           id: "LemonC herry Gelato 🌅",
           name: "LemonCherryGelato🍋🍒",
           farm: "CALI NO BRAND ™️©️",
@@ -1068,9 +1103,82 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 290.0, oldPrice: 350.0 },
             { weight: "100g", price: 560.0, oldPrice: 600.0 },
           ],
+        }, */
+      ],
+    }, 
+     {
+      id: "Autre",
+      name: " 🍁 Autre 🍁",
+      type: "Autre",
+      image: "CategAutre.png",
+      products: [
+        {
+          id: "Sirop",
+          name: "SIROP THC 🍯",
+          farm: "GenetixSelection 🥼",
+          type: "Sirop THC",
+          image: "ProductST.jpg",
+          video: "VideoSTT.mov",
+          description:
+            "Gout Grenadine 🍓",
+          tarifs: [
+            { weight: "1", price: 40.0 },
+          ],
+        },
+        {
+          id: "Alien OG",
+          name: "Alien OG 👽",
+          farm: "D9CTACORP 🍏",
+          type: "Extraction",
+          image: "ProductAO.jpg",
+          video: "VideoAO.mov",
+          description:
+            "",
+          tarifs: [
+            { weight: "1", price: 40.0 },
+          ],
+        },
+        {
+          id: "MagicMarker",
+          name: "MagicMarker 🖍",
+          farm: "D9CTACORP 🍏",
+          type: "Extraction",
+          image: "ProductMMM.jpg",
+          video: "VideoMMM.mov",
+          description:
+            "",
+          tarifs: [
+            { weight: "1", price: 40.0 },
+          ],
+        },
+        {
+          id: "SherBlato",
+          name: "SherBlato 🥃",
+          farm: "D9CTACORP 🍏",
+          type: "Extraction",
+          image: "ProductSB.jpg",
+          video: "VideoSB.mov",
+          description:
+            "",
+          tarifs: [
+            { weight: "1", price: 40.0 },
+          ],
+        },
+        {
+          id: "Do-Si-Dos",
+          name: "Do-Si-Dos 🧨",
+          farm: "D9CTACORP 🍏",
+          type: "Extraction",
+          image: "ProductDO.jpg",
+          video: "VideoDO.mov",
+          description:
+            "",
+          tarifs: [
+            { weight: "1", price: 40.0 },
+          ],
         },
       ],
-    }, */
+    }, 
   ];
 
   // --- VARIABLES D'ÉTAT ---
