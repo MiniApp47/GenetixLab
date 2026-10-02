@@ -806,7 +806,7 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "IceCreamCake 🎂.",
               farm: "Humboldt Farm 🇺🇸",
               type: "🔍 Static Sift 🔍",
-              image: "ProductP.jpg",
+              image: "ProductP.png",
               video: "VideoPICC.mov",
               description:
                 "🔍 STATIC SIFT USA 🔍\n\nUn gaz glacial et percutant venu tout droit des meilleures cultures californiennes. Profil floral et carburant.\n\n⚠️ A CONSOMMER AVEC MODÉRATION ⚠️",
@@ -821,7 +821,7 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "CobraChi 🐍",
               farm: "Humboldt Farm 🇺🇸",
               type: "🔍 Static Sift 🔍",
-              image: "ProductP.png",
+              image: "ProductP.jpg",
               video: "VideoP.mov",
               description:
                 "🔍 STATIC SIFT USA 🔍\n\nUn gaz glacial et percutant venu tout droit des meilleures cultures californiennes. Profil floral et carburant.\n\n⚠️ A CONSOMMER AVEC MODÉRATION ⚠️",
