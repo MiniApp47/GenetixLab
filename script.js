@@ -320,7 +320,7 @@ document.addEventListener("DOMContentLoaded", function () {
               image: "ProductF.png",
               video: "VideoF.mov",
               description:
-                "🍯 QUALITÉ FROZEN 🍯\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n Strain disponible : Mandarina Odv \n Lemon Papaya Odv \n Lemon Papaya Odv \n\n NEW DROP 2026/27 ✨✨",
+                "🍯 QUALITÉ FROZEN 🍯\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n Strain disponible : Mandarina Odv \n Lemon Papaya Odv \n ForbidennFruit \n\n NEW DROP 2026/27 ✨✨",
               tarifs: [
                 { weight: "5g", price: 60.0 },
                 { weight: "10g", price: 100.0 },
