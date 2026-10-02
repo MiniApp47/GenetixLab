@@ -311,6 +311,25 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "200g", price: 1500.0 },
               ],
             },
+            {
+              id: "🍯 FROZEN",
+              name: "🍯 FROZEN",
+              farm: "The Gaz SÉLECTION 🇲🇦",
+              promoEligible: true,
+              type: "💎 Fresh Frozen 💎",
+              image: "ProductF.png",
+              video: "VideoF.mov",
+              description:
+                "🍯 QUALITÉ FROZEN 🍯\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n Strain disponible : Mandarina Odv \n Lemon Papaya Odv \n Lemon Papaya Odv \n\n NEW DROP 2026/27 ✨✨",
+              tarifs: [
+                { weight: "5g", price: 60.0 },
+                { weight: "10g", price: 100.0 },
+                { weight: "25g", price: 220.0 },
+                { weight: "50g", price: 400.0 },
+                { weight: "100g", price: 800.0 },
+                { weight: "200g", price: 1500.0 },
+              ],
+            },
            /*  {
               id: "TROPICAL ODV 🌴",
               name: "TROPICAL ODV 🌴",
