@@ -114,6 +114,23 @@ document.addEventListener("DOMContentLoaded", function () {
           products: [
             // --- 🔮 PLASMA STATIC 🔮 ---
             {
+              id: "🔮 Plasma Static 🔮",
+              name: "🔮 Plasma Static 🔮",
+              farm: "The Gaz SÉLECTION 🇲🇦",
+              type: "🔮 Plasma Static 🔮",
+              image: "Product24.jpg",
+              video: "Video24.mov",
+              description:
+                "🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\n Strain disponible : Satzuma revenge \n Honey papay \n Rotten rainbow \n Meat grinder",
+              tarifs: [
+                { weight: "5g", price: 80.0 },
+                { weight: "10g", price: 140.0 },
+                { weight: "25g", price: 300.0 },
+                { weight: "50g", price: 500.0 },
+                { weight: "100g", price: 900.0 },
+              ],
+            },
+            /* {
               id: "CALIPPO x FORBIDDEN FRUIT 🍇🍒",
               name: "CALIPPO x FORBIDDEN FRUIT 🍇🍒",
               farm: "The Gaz SÉLECTION 🇲🇦",
@@ -129,10 +146,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50g", price: 500.0 },
                 { weight: "100g", price: 900.0 },
               ],
-            },
+            }, */
 
             // --- 🏅 120u ---
-            {
+           /*  {
               id: "120u BUDDHA LEMON 🍋",
               name: "120u BUDDHA LEMON 🍋",
               farm: "The Gaz SÉLECTION 🇲🇦",
@@ -165,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "100g", price: 480.0 },
                 { weight: "200g", price: 900.0 },
               ],
-            },
+            }, */
             /*   {
                             id: '120u PARMESAN COOKIES 🍪',
                             name: '120u PARMESAN COOKIES 🍪',
@@ -184,6 +201,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // --- 🍓 90u ---
             {
+              id: "90u ",
+              name: "90u 🍎",
+              farm: "The Gaz SÉLECTION 🇲🇦",
+              type: "90u 🍓",
+              image: "Product9.jpg",
+              video: "Video9.mov",
+              description:
+                "🍓 SÉLECTION 90u PREMIUM 🍓\n\n Strain disponible : Panacotta \n mangosh \n banana split \n tiramisu",
+              tarifs: [
+                { weight: "10g", price: 70.0 },
+                { weight: "25g", price: 130.0 },
+                { weight: "50g", price: 200.0 },
+                { weight: "100g", price: 380.0 },
+                { weight: "200g", price: 700.0 },
+                { weight: "500G", price: 1700.0 },
+              ],
+            },
+          /*   {
               id: "90u APPLE BANANA 🍎🍌",
               name: "90u APPLE BANANA 🍎🍌",
               farm: "The Gaz SÉLECTION 🇲🇦",
@@ -254,10 +289,29 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "200g", price: 700.0 },
                 { weight: "500G", price: 1700.0 },
               ],
-            },
+            }, */
 
             // --- 💎 FRESH FROZEN (Séparés par Strain) 💎 ---
             {
+              id: "💎 FRESH FROZEN",
+              name: "💎 FRESH FROZEN",
+              farm: "The Gaz SÉLECTION 🇲🇦",
+              promoEligible: true,
+              type: "💎 Fresh Frozen 💎",
+              image: "ProductFroz.jpg",
+              video: "VideoFroz.mov",
+              description:
+                "💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n Strain disponible : Papay lemonz \n Gta lemonz \n Cherry mochi \n Knock out \n\n NEW DROP 2026/27 ✨✨",
+              tarifs: [
+                { weight: "5g", price: 60.0 },
+                { weight: "10g", price: 100.0 },
+                { weight: "25g", price: 220.0 },
+                { weight: "50g", price: 400.0 },
+                { weight: "100g", price: 800.0 },
+                { weight: "200g", price: 1500.0 },
+              ],
+            },
+           /*  {
               id: "TROPICAL ODV 🌴",
               name: "TROPICAL ODV 🌴",
               farm: "The Gaz SÉLECTION 🇲🇦",
@@ -313,14 +367,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "100g", price: 800.0 },
                 { weight: "200g", price: 1500.0 },
               ],
-            },
+            }, */
           ],
         },
         {
           id: "FULLMELT FARM",
           name: "👨‍🌾 FULLMELT FARM 👨‍🌾",
           products: [
-            {
+           /*  {
               id: "GAZOLINA ⛽️",
               name: "GAZOLINA ⛽️",
               farm: "FULLMELTFARM 🍶",
@@ -391,7 +445,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "200g", price: 700.0 },
                 { weight: "500g", price: 1700.0 },
               ],
-            },
+            }, */
             /*  {
               id: "BERRY CAKE 🎂🫐",
               name: "BERRY CAKE 🎂🫐",
@@ -520,7 +574,7 @@ document.addEventListener("DOMContentLoaded", function () {
               ],
             },
             // --- ⚡️ DOUBLE STATIC (Séparés par Strain) ⚡️ ---
-            {
+            /* {
               id: "BLACK PAPAYA 🥭🍩",
               name: "BLACK PAPAYA 🥭🍩",
               farm: "FULLMELTFARM 🍶",
@@ -588,7 +642,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "100g", price: 750.0 },
               ],
             },
-            // --- 🔮 PLASMA STATIC (Séparés par Strain) 🔮 ---
+ */            // --- 🔮 PLASMA STATIC (Séparés par Strain) 🔮 ---
            /*  {
               id: "PLASMA RUNTZ 🧬",
               name: "RUNTZ 🧬",
@@ -739,6 +793,42 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50g", price: 500.0 },
                 { weight: "100g", price: 950.0 },
                 { weight: "200g", price: 1850.0 },
+              ],
+            },
+          ],
+        },
+        {
+          id: "🇺🇸 DROP USA 🇺🇸",
+          name: "🇺🇸 DROP USA 🇺🇸",
+          products: [
+            {
+              id: "IceCreamCake 🎂.",
+              name: "IceCreamCake 🎂.",
+              farm: "Humboldt Farm 🇺🇸",
+              type: "🔍 Static Sift 🔍",
+              image: "ProductP.jpg",
+              video: "VideoPICC.mov",
+              description:
+                "🔍 STATIC SIFT USA 🔍\n\nUn gaz glacial et percutant venu tout droit des meilleures cultures californiennes. Profil floral et carburant.\n\n⚠️ A CONSOMMER AVEC MODÉRATION ⚠️",
+              tarifs: [
+                { weight: "1g", price: 40.0 },
+                { weight: "5g", price: 170.0 },
+                { weight: "10g", price: 320.0 },
+              ],
+            },
+            {
+              id: "CobraChi 🐍",
+              name: "CobraChi 🐍",
+              farm: "Humboldt Farm 🇺🇸",
+              type: "🔍 Static Sift 🔍",
+              image: "ProductP.png",
+              video: "VideoP.mov",
+              description:
+                "🔍 STATIC SIFT USA 🔍\n\nUn gaz glacial et percutant venu tout droit des meilleures cultures californiennes. Profil floral et carburant.\n\n⚠️ A CONSOMMER AVEC MODÉRATION ⚠️",
+              tarifs: [
+                { weight: "1g", price: 40.0 },
+                { weight: "5g", price: 170.0 },
+                { weight: "10g", price: 320.0 },
               ],
             },
           ],
@@ -971,7 +1061,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         },
-        {
+        /* {
           id: "La Ruche Du Jbel 🐝",
           name: "La Ruche Du Jbel 🐝",
           products: [
@@ -1010,7 +1100,7 @@ document.addEventListener("DOMContentLoaded", function () {
               ],
             },
           ],
-        },
+        }, */
       ],
     },
     {
