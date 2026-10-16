@@ -318,7 +318,7 @@ document.addEventListener("DOMContentLoaded", function () {
               promoEligible: true,
               type: "💎 Fresh Frozen 💎",
               image: "ProductF.jpg",
-              videos:["VideoF.mov","VideoF2.mov"],
+              videos:["VideoF.mov","VideoF1.mov"],
               description:
                 "🍯 QUALITÉ FROZEN 🍯\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n Strain disponible : Banana Pi'nana Z \n Banana Pizza  \n Berry Melono \n Black Truffle  \n\n NEW DROP 2026/27 ✨✨",
               tarifs: [
