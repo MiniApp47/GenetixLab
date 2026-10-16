@@ -317,10 +317,10 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: "The Gaz SÉLECTION 🇲🇦",
               promoEligible: true,
               type: "💎 Fresh Frozen 💎",
-              image: "ProductF.png",
-              video: "VideoF.mov",
+              image: "ProductF.jpg",
+              videos:["VideoF.mov","VideoF2.mov"],
               description:
-                "🍯 QUALITÉ FROZEN 🍯\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n Strain disponible : Mandarina Odv \n Lemon Papaya Odv \n ForbidennFruit \n\n NEW DROP 2026/27 ✨✨",
+                "🍯 QUALITÉ FROZEN 🍯\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n Strain disponible : Banana Pi'nana Z \n Banana Pizza  \n Berry Melono \n Black Truffle  \n\n NEW DROP 2026/27 ✨✨",
               tarifs: [
                 { weight: "5g", price: 60.0 },
                 { weight: "10g", price: 100.0 },
@@ -1128,7 +1128,41 @@ document.addEventListener("DOMContentLoaded", function () {
       type: "Weed",
       image: "CategWeed.png",
       products: [
-        {
+         {
+          id: "Tropicana Cookies",
+          name: "Tropicana Cookies 🍪",
+          farm: "CALI NO BRAND ™️©️",
+          type: "Weed",
+          image: "ProductTC.jpg",
+          video: "VideoTC.mov",
+          description:
+            "",
+          tarifs: [
+            { weight: "10g", price: 70.0 },
+            { weight: "25g", price: 150.0},
+            { weight: "50g", price: 270.0},
+            { weight: "100g", price: 500.0 },
+            { weight: "200g", price: 950.0 },
+          ],
+        },
+         {
+          id: "Mimosa",
+          name: "Mimosa 🍾",
+          farm: "CALI NO BRAND ™️©️",
+          type: "Weed",
+          image: "ProductMI.jpg",
+          video: "VideoMI.mov",
+          description:
+            "",
+          tarifs: [
+            { weight: "10g", price: 70.0 },
+            { weight: "25g", price: 150.0},
+            { weight: "50g", price: 270.0},
+            { weight: "100g", price: 500.0 },
+            { weight: "200g", price: 950.0 },
+          ],
+        },
+      /*   {
           id: "Gorilla glue",
           name: "Gorilla glue 👽",
           farm: "CALI NO BRAND ™️©️",
@@ -1162,7 +1196,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100g", price: 500.0 },
             { weight: "200g", price: 950.0 },
           ],
-        },
+        }, */
         /* {
           id: "LemonC herry Gelato 🌅",
           name: "LemonCherryGelato🍋🍒",
