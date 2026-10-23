@@ -299,7 +299,7 @@ document.addEventListener("DOMContentLoaded", function () {
               promoEligible: true,
               type: "💎 Fresh Frozen 💎",
               image: "ProductFroz.jpg",
-              video: "VideoFroz.mov",
+              videos:["VideoFroz.mov","VideoFroz1.mov"],
               description:
                 "💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n Strain disponible : Papay lemonz \n Gta lemonz \n Cherry mochi \n Knock out \n\n NEW DROP 2026/27 ✨✨",
               tarifs: [
@@ -1123,11 +1123,71 @@ document.addEventListener("DOMContentLoaded", function () {
       ],
     },
     {
-      id: "WEED",
-      name: " 🕯 Weed 🕯",
+
+       id: "WEED",
+      name: "🕯 Weed 🕯",
       type: "Weed",
+      quality: " 🕯 Weed 🕯",
       image: "CategWeed.png",
-      products: [
+      farms: [
+         { 
+          id: "CALI USA 🇺🇸",
+          name: "CALI USA 🇺🇸",
+          products: [
+         {
+          id: "Zushi 🥋",
+          name: "Zushi 🥋",
+          farm: "TheTenCo 🇺🇸®️",
+          type: "Weed",
+          image: "ProductZ.jpg",
+          images: ["ProductZ1.jpg"],
+          video: "VideoZ.mp4",
+          description:
+            "",
+          tarifs: [
+            { weight: "bags 3,5g", price: 80.0 },
+            { weight: "2 bags", price: 150.0},
+            { weight: "5 bags", price: 320.0},
+          ],
+        },
+         {
+          id: "Lucky7s 🍀",
+          name: "Lucky7s 🍀",
+          farm: "Burning Rope Pharms 🇺🇸🧬",
+          type: "Weed",
+          image: "ProductL7.jpg",
+          images: ["ProductL71.jpg"],
+          video: "VideoL7.mp4",
+          description:
+            "",
+          tarifs: [
+            { weight: "bags 3,5g", price: 80.0 },
+            { weight: "2 bags", price: 150.0},
+            { weight: "5 bags", price: 320.0},
+          ],
+        },
+         {
+          id: "Tea Party 🫖",
+          name: "Tea Party 🫖",
+          farm: "WizardTrees 🇺🇸🧙",
+          type: "Weed",
+          image: "ProductTP.jpg",
+          images: ["ProductTP1.jpg"],
+          video: "VideoTP.mp4",
+          description:
+            "",
+          tarifs: [
+            { weight: "bags 3,5g", price: 80.0 },
+            { weight: "2 bags", price: 150.0},
+            { weight: "5 bags", price: 320.0},
+          ],
+        },
+      ],
+    },
+         { 
+          id: "CALI 🇨🇦",
+          name: "CALI 🇨🇦",
+          products: [
          {
           id: "Tropicana Cookies",
           name: "Tropicana Cookies 🍪",
@@ -1162,6 +1222,10 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "200g", price: 950.0 },
           ],
         },
+      ],
+    }
+  ],
+    }, 
       /*   {
           id: "Gorilla glue",
           name: "Gorilla glue 👽",
@@ -1247,8 +1311,6 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100g", price: 560.0, oldPrice: 600.0 },
           ],
         }, */
-      ],
-    }, 
      {
       id: "Autre",
       name: " 🍁 Autre 🍁",
@@ -1672,10 +1734,15 @@ document.addEventListener("DOMContentLoaded", function () {
         .join("");
 
       mediaHTML = `
-            <div class="carousel-container">
-                ${slides}
+            <div class="carousel-wrapper">
+                <button class="carousel-arrow carousel-arrow-left" type="button" aria-label="Média précédent">‹</button>
+                <div class="carousel-container">
+                    ${slides}
+                </div>
+                <button class="carousel-arrow carousel-arrow-right" type="button" aria-label="Média suivant">›</button>
+                <div class="carousel-counter">1 / ${mediaItems.length}</div>
             </div>
-            <div class="carousel-hint">↔️ Swipe pour voir la suite</div>
+            <div class="carousel-hint"><span class="swipe-icon">↔️</span> SWIPE POUR VOIR LES ${mediaItems.length} MÉDIAS</div>
             `;
     } else if (mediaItems.length === 1) {
       // Affichage unique si un seul média
@@ -1735,6 +1802,45 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         </div>
     `;
+
+    // --- 3. COMMANDES DU CARROUSEL : grosses flèches + compteur ---
+    const carousel = pageContent.querySelector(".carousel-container");
+    const prevArrow = pageContent.querySelector(".carousel-arrow-left");
+    const nextArrow = pageContent.querySelector(".carousel-arrow-right");
+    const counter = pageContent.querySelector(".carousel-counter");
+
+    if (carousel && prevArrow && nextArrow && counter) {
+      const slides = Array.from(carousel.querySelectorAll(".carousel-slide"));
+
+      const getCurrentSlide = () => {
+        if (!carousel.clientWidth) return 0;
+        return Math.max(
+          0,
+          Math.min(slides.length - 1, Math.round(carousel.scrollLeft / carousel.clientWidth)),
+        );
+      };
+
+      const updateCarouselUI = () => {
+        const currentIndex = getCurrentSlide();
+        counter.textContent = `${currentIndex + 1} / ${slides.length}`;
+        prevArrow.classList.toggle("is-disabled", currentIndex === 0);
+        nextArrow.classList.toggle("is-disabled", currentIndex === slides.length - 1);
+      };
+
+      const goToSlide = (index) => {
+        const safeIndex = Math.max(0, Math.min(slides.length - 1, index));
+        carousel.scrollTo({
+          left: safeIndex * carousel.clientWidth,
+          behavior: "smooth",
+        });
+      };
+
+      prevArrow.addEventListener("click", () => goToSlide(getCurrentSlide() - 1));
+      nextArrow.addEventListener("click", () => goToSlide(getCurrentSlide() + 1));
+      carousel.addEventListener("scroll", updateCarouselUI, { passive: true });
+      window.requestAnimationFrame(updateCarouselUI);
+    }
+
     showPage("page-product");
   }
 
