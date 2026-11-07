@@ -26,20 +26,20 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "PAGE INSTAGRAM 📸",
-      url: "https://www.instagram.com/terps.lab?igsh=eGF6aTV2dTlrbGxi&utm_source=qr",
+      url: "https://www.instagram.com/genetix.labz?xtok=eGF6aTV2dTlrbGxi&utm_source=qr",
       icon: "#icon-instagram",
       id: "insta-main",
       className: "insta-main",
       text: "PAGE INSTAGRAM 📸",
     },
-    {
+  /*   {
       name: "SNAPCHAT 👻",
       url: "https://snapchat.com/t/M9TLDs9L",
       icon: "#icon-snapchat",
       id: "snap-main",
       className: "snap-main",
       text: "SNAPCHAT 👻",
-    },
+    }, */
   ];
 
   // --- DONNÉES DE L'APPLICATION ---
