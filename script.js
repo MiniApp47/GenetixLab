@@ -1174,6 +1174,28 @@ document.addEventListener("DOMContentLoaded", function () {
       quality: " 🕯 Weed 🕯",
       image: "CategWeed.png",
       farms: [
+            { 
+          id: "CALI HOLLANDAISE 🇳🇱",
+          name: "CALI HOLLANDAISE 🇳🇱",
+          products: [
+         {
+          id: "AMNESIA HAZE",
+          name: "AMNESIA HAZE 🍁",
+          farm: "CALI NO BRAND ™️©️",
+          type: "Weed",
+          image: "ProductAH.png",
+          video: "VideoAH.mov",
+          description:
+            "",
+          tarifs: [
+            { weight: "10g", price: 70.0 },
+            { weight: "25g", price: 150.0},
+            { weight: "50g", price: 250.0},
+            { weight: "100g", price: 470.0 },
+          ],
+        },
+      ],
+    },
          { 
           id: "CALI USA 🇺🇸",
           name: "CALI USA 🇺🇸",
@@ -1247,22 +1269,6 @@ document.addEventListener("DOMContentLoaded", function () {
           id: "CALI 🇨🇦",
           name: "CALI 🇨🇦",
           products: [
-         {
-          id: "AMNESIA HAZE",
-          name: "AMNESIA HAZE 🍁",
-          farm: "CALI NO BRAND ™️©️",
-          type: "Weed",
-          image: "ProductAH.png",
-          video: "VideoAH.mov",
-          description:
-            "",
-          tarifs: [
-            { weight: "10g", price: 70.0 },
-            { weight: "25g", price: 150.0},
-            { weight: "50g", price: 250.0},
-            { weight: "100g", price: 470.0 },
-          ],
-        },
          {
           id: "Tropicana Cookies",
           name: "Tropicana Cookies 🍪",
