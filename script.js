@@ -101,6 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
       ],
     }, */
+    
     {
       id: "HASH",
       name: "🍫 Hash 🍫",
@@ -108,6 +109,30 @@ document.addEventListener("DOMContentLoaded", function () {
       quality: " 🍫 Hash 🍫",
       image: "CategHash.png",
       farms: [
+         {
+          id: "AYLA HASH.CO🇲🇦",
+          name: "AYLA HASH.CO🇲🇦",
+          products: [
+             {
+              id: "💎 FRESH FROZEN",
+              name: "💎 FRESH FROZEN",
+              farm: "AYLA HASH.CO🇲🇦",
+              promoEligible: true,
+              type: "💎 Fresh Frozen 💎",
+              image: "ProductAY.png",
+              videos: ["VideoAY.mp4","VideoAY2.mp4"],
+              description:
+                "💎 QUALITÉ FRESH FROZEN 💎\n\n STRAIN DISPONIBLE : \n TANGIBERTO \n BLUE LAGOON \n FF X 26mm \n\n PRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n NEW DROP SAISON 2k27 🆕🆕🆕",
+              tarifs: [
+                { weight: "5g", price: 60.0 },
+                { weight: "10g", price: 110.0 },
+                { weight: "25g", price: 220.0 },
+                { weight: "50g", price: 400.0 },
+                { weight: "100g", price: 750.0 },
+              ],
+            },
+          ],
+        },
         {
           id: "The Gaz SÉLECTION🇲🇦",
           name: "The Gaz SÉLECTION 🇲🇦",
@@ -118,8 +143,8 @@ document.addEventListener("DOMContentLoaded", function () {
               name: "🔮 Plasma Static 🔮",
               farm: "The Gaz SÉLECTION 🇲🇦",
               type: "🔮 Plasma Static 🔮",
-              image: "Product24.jpg",
-              video: "Video24.mov",
+              image: "Product24.png",
+              video: "Video24.mp4",
               description:
                 "🔮 TECHNOLOGIE PLASMA STATIC 🔮\n\n Strain disponible : Satzuma revenge \n Honey papay \n Rotten rainbow \n Meat grinder",
               tarifs: [
@@ -299,9 +324,9 @@ document.addEventListener("DOMContentLoaded", function () {
               promoEligible: true,
               type: "💎 Fresh Frozen 💎",
               image: "ProductFroz.jpg",
-              videos:["VideoFroz.mov","VideoFroz1.mov"],
+              video: "VideoFroz.mp4",
               description:
-                "💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️\n Strain disponible : Papay lemonz \n Gta lemonz \n Cherry mochi \n Knock out \n\n NEW DROP 2026/27 ✨✨",
+                "💎 QUALITÉ FRESH FROZEN 💎\n\nPRODUIT SEC ET CASSANT ⭐️⭐️⭐️⭐️⭐️ \n\n NEW DROP SAISON 2k27 🆕🆕🆕",
               tarifs: [
                 { weight: "5g", price: 60.0 },
                 { weight: "10g", price: 100.0 },
@@ -662,6 +687,25 @@ document.addEventListener("DOMContentLoaded", function () {
               ],
             },
  */            // --- 🔮 PLASMA STATIC (Séparés par Strain) 🔮 ---
+ {
+              id: "PLASMA STATIC 🧬",
+              name: "PLASMA STATIC 🧬",
+              farm: "FULLMELTFARM 🍶",
+              promoEligible: true,
+              type: "🔮 Plasma Static 🔮",
+              image: "ProductPS.png",
+              video: "VideoPS.mp4",
+              description:
+                "🔮 TECHNOLOGIE PLASMA STATIC 🔮\n La célèbre Runtz sublimée par la technologie Plasma. Un mélange sucré et gazeux foudroyant.\n\n⚠️ Pas pour les amateurs de fume ⛔️",
+              tarifs: [
+                { weight: "5g", price: 70.0 },
+                { weight: "10g", price: 130.0 },
+                { weight: "25g", price: 260.0 },
+                { weight: "50g", price: 500.0 },
+                { weight: "100g", price: 950.0 },
+                { weight: "200g", price: 1850.0 },
+              ],
+            },
            /*  {
               id: "PLASMA RUNTZ 🧬",
               name: "RUNTZ 🧬",
@@ -719,7 +763,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "200g", price: 1850.0 },
               ],
             }, */
-            {
+          /*   {
               id: "PLASMA MANGO KUSH 🥭⚡️",
               name: "MANGO KUSH 🥭⚡️",
               farm: "FULLMELTFARM 🍶",
@@ -813,7 +857,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "100g", price: 950.0 },
                 { weight: "200g", price: 1850.0 },
               ],
-            },
+            }, */
           ],
         },
         {
@@ -1134,6 +1178,21 @@ document.addEventListener("DOMContentLoaded", function () {
           id: "CALI USA 🇺🇸",
           name: "CALI USA 🇺🇸",
           products: [
+         {
+          id: "CALI 🎓",
+          name: "CALI JUNGLE 🎓",
+          farm: "JUNGLE BOYS 🇺🇸🥇",
+          type: "Weed",
+          image: "ProductCJ.png",
+          video: "VideoCJ.mp4",
+          description:
+            "STRAIN DISPAONIBLE :\n\n- Jungle Cake 🌋\n- Legend OG x LA Kush Cake 🍀\n- GatorBreath 🏭",
+          tarifs: [
+            { weight: "3,5g (1bags)", price: 80.0 },
+            { weight: "2 bags", price: 150.0},
+            { weight: "3 bags", price: 210.0},
+          ],
+        },
          {
           id: "Zushi 🥋",
           name: "Zushi 🥋",
