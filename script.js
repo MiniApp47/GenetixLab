@@ -1179,8 +1179,8 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "CALI USA 🇺🇸",
           products: [
          {
-          id: "CALI 🎓",
-          name: "CALI JUNGLE 🎓",
+          id: "JUNGLE BOYS ®️",
+          name: "JUNGLE BOYS ®️",
           farm: "JUNGLE BOYS 🇺🇸🥇",
           type: "Weed",
           image: "ProductCJ.png",
