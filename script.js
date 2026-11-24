@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const contactLinks = [
     {
       name: "TELEGRAM PRINCIPAL 🥇",
-      url: "https://t.me/+iqbsZbS9_k4zMGE0",
+      url: "https://t.me/+MCSM61Fk1p8zZGM0",
       icon: "#icon-telegram",
       id: "telegram-main",
       className: "telegram-main",
